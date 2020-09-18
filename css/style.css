@@ -1,0 +1,59 @@
+.wrapper {
+	margin: 0 auto;
+	width: 960px;
+	font-family: Roboto;
+}
+h1 {
+	font-size: 36px;
+	line-height: 36px;
+}
+p {
+	font-size: 24px;
+	line-height: 32px;
+}
+h2 {
+	font-size: 32px;
+	line-height: 32px;
+}
+ul, ol {
+	font-size: 20px;
+	line-height: 26px;
+}
+ul li {
+	margin: 10px 0;
+}
+ol li {
+	margin: 20px 0;
+}
+.tip {
+	height: 70px;
+	background-color: #def6ed;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	border-radius: 4px;
+	font-size: 20px;
+	width: 935px;
+}
+.first, .second, .tip {
+	margin: 40px 0;
+}
+nav ul {
+	list-style-type: none;
+	background-color: gray;
+	width: 960px;
+	margin: 0 auto;
+}
+nav li {
+	display: inline;
+}
+nav li a {
+	display: inline-block;
+	color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav li a:hover {
+	background-color: black;
+}
