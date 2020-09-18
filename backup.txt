@@ -1,0 +1,46 @@
+body {
+	font-family: Roboto;
+	font-size: 20px;
+	line-height: 26px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 960px;
+}
+.first {
+	font-size: 36px;
+	line-height: 36px;
+	color: red;
+}
+h1 {
+	font-size: 36px;
+	line-height: 36px;
+}
+h2 {
+	font-size: 32px;
+	line-height: 32px;
+}
+p {
+	font-size: 24px;
+	line-height: 32px;
+	margin-bottom: 40px;
+}
+article p {
+	font-size: 20px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+li {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+ol li:nth-child(1) {
+	line-height: 30px;
+	margin-bottom: 20px;
+}
+.tip {
+	background-color: #def6ed;
+	border-radius: 4px;
+	padding: 25px;
+}
